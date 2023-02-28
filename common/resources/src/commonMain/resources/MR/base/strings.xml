@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!--Block String Errors-->
+    <string name="user_not_found">Пользователь не найден</string>
+    <string name="bad_password">Неверный пароль</string>
+    <string name="not_found">Ничего не найдено</string>
+    <string name="unexpected_error">Неизвестная ошибка</string>
+
+    <!--Block String Screen-->
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="auth">Авторизация</string>
+    <string name="sign_in">Войти</string>
+    <string name="in_progress">В процессе</string>
+    <string name="archive">Архив</string>
+    <string name="add_work">Добавить работу</string>
+    <string name="job">Работы</string>
+    <string name="profile">Профиль</string>
+    <string name="title">Название</string>
+    <string name="enter_title">Введите название</string>
+    <string name="price">Стоимость</string>
+    <string name="enter_price">Укажите стоимость</string>
+    <string name="status_job">Статус работы</string>
+    <string name="chose_status_job">Выберите статус работы</string>
+    <string name="description">Описание</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="change_job">Редактировать работу</string>
+    <string name="name">Имя</string>
+    <string name="completion_job">Выполнено работ</string>
+    <string name="salary_month">З/п (месяц)</string>
+    <string name="balance">Баланс</string>
+    <string name="history_transaction">История переводов</string>
+    <string name="add_transaction">Добавить транзакцию</string>
+    <string name="sum">Сумма</string>
+    <string name="enter_sum">Укажите сумму</string>
+    <string name="comment">Комментарий</string>
+    <string name="rub">рублей</string>
+    <string name="rub_sign">₽</string>
+</resources>

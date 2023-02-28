@@ -1,0 +1,87 @@
+[versions]
+
+kotlin = "1.7.10"
+kotlinx-coroutines = "1.6.4"
+android-gradlePlgn = "7.2.2"
+kotlinx-serialization = "1.3.2"
+connectivity-status = "1.2.0"
+kotlin-serialization-gradle = "1.6.21"
+ktor = "2.1.0"
+moko-resources = "0.20.1"
+settings = "0.9"
+random = "0.5.0"
+koin-core = "3.3.2"
+koin-compose = "3.4.1"
+kviewmodel = "0.7.1"
+moko-permission = "0.12.0"
+moko-mvvm = "0.15.0"
+leekCanaryVersion = "2.10"
+ratingbar = "1.2.3"
+google-fonts = "1.2.1"
+coil-compose = "2.1.0"
+accomponits-systemui = "0.24.8-beta"
+shimmer = "1.0.3"
+accomponist = "0.28.0"
+odyssey = "1.3.1"
+
+[libraries]
+android-gradlePlgn = { module = "com.android.tools.build:gradle", version.ref = "android-gradlePlgn" }
+kotlin-serialization-gradlePlgn = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin-serialization-gradle" }
+kotlin-gradlePlgn = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+connectivity-status = { module = "com.github.ln-12:multiplatform-connectivity-status", version.ref = "connectivity-status" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin-core" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-core" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin-compose" }
+
+accomponist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accomponist" }
+
+ratingbar = { module = "io.github.a914-gowtham:compose-ratingbar", version.ref = "ratingbar" }
+
+odyssey-core = { module = "io.github.alexgladkov:odyssey-core", version.ref = "odyssey" }
+odyssey-compose = { module = "io.github.alexgladkov:odyssey-compose", version.ref = "odyssey" }
+
+google-fonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "google-fonts" }
+
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
+
+accomponits-systemui = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accomponits-systemui" }
+
+shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "shimmer" }
+
+ktor-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-json = { module = "io.ktor:ktor-client-json", version.ref = "ktor" }
+ktor-ios = { module = "io.ktor:ktor-client-ios", version.ref = "ktor" }
+ktor-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-kotlin_json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktor" }
+ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktor-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
+
+moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+moko-resources-compose = { module = "dev.icerock.moko:resources-compose", version.ref = "moko-resources" }
+moko-resources-generator = { module = "dev.icerock.moko:resources-generator", version.ref = "moko-resources" }
+
+moko-permission = { module = "dev.icerock.moko:permissions", version.ref = "moko-permission" }
+
+kviewmodel-core = { module = "com.adeo:kviewmodel", version.ref = "kviewmodel" }
+
+random = { module = "com.benasher44:uuid", version.ref = "random" }
+settings = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "settings" }
+
+moko-mvvm-core = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
+moko-mvvm-flow = { module = "dev.icerock.moko:mvvm-flow", version.ref = "moko-mvvm" }
+moko-mvvm-flow-compose = { module = "dev.icerock.moko:mvvm-flow-compose", version.ref = "moko-mvvm" }
+
+leekCanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leekCanaryVersion" }
+
+[bundles]
+plaginz = ["android-gradlePlgn", "kotlin-gradlePlgn", "kotlin-serialization-gradlePlgn"]
+#pulagins = ["android-gradlePlgn", "kotlin-gradlePlgn", "kotlin-serialization-gradlePlgn", "sqlDelight-gradlePlgn", "versionsPlgn", "detektPlgn", "ktlintPlgn", "canidropjetifierPlgn"]
